@@ -102,6 +102,8 @@
 #define RT_USING_SFUD
 #define RT_SFUD_USING_SFDP
 #define RT_SFUD_USING_FLASH_INFO_TABLE
+#define RT_USING_SENSOR
+#define RT_USING_SENSOR_CMD
 #define RT_USING_WIFI
 #define RT_WLAN_DEVICE_STA_NAME "wlan0"
 #define RT_WLAN_DEVICE_AP_NAME "wlan1"
@@ -280,6 +282,9 @@
 
 /* peripheral libraries and drivers */
 
+#define PKG_USING_SENSORS_DRIVERS
+#define PKG_USING_AHT10
+#define PKG_USING_AHT10_LATEST_VERSION
 
 /* miscellaneous packages */
 
@@ -317,5 +322,8 @@
 
 #define RT_USING_SMARTCONFIG_LIB
 #define RT_USING_SMARTCONFIG_DEMO
-
+#define BSP_USING_AHT10
+#define PKG_USING_AHT10_V200
+#define BSP_USING_SOFT_I2C
+#define BSP_USING_SOFT_I2C1
 #endif

@@ -353,9 +353,12 @@
           <name>CCIncludePath2</name>
           <state />
           <state>$PROJ_DIR$\..\..\drivers</state>
+          <state>$PROJ_DIR$\..\..\rt-thread\components\drivers\sensors</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\libc\compilers\common</state>
+          <state>$PROJ_DIR$\packages\aht10-v2.0.0</state>
           <state>$PROJ_DIR$\ports\fal</state>
           <state>$PROJ_DIR$\packages\ali-iotkit-v2.0.3\iotkit-embedded\src\utils\misc</state>
+          <state>$PROJ_DIR$\ports\sensor</state>
           <state>$PROJ_DIR$\..\..\libraries\WM_Libraries\Platform\Common\Params</state>
           <state>$PROJ_DIR$\packages\fal-v0.3.0\inc</state>
           <state>$PROJ_DIR$\..\..\libraries\WM_Libraries\Platform\Boot\gcc</state>
@@ -1441,9 +1444,12 @@
           <name>CCIncludePath2</name>
           <state />
           <state>$PROJ_DIR$\..\..\drivers</state>
+          <state>$PROJ_DIR$\..\..\rt-thread\components\drivers\sensors</state>
           <state>$PROJ_DIR$\..\..\rt-thread\components\libc\compilers\common</state>
+          <state>$PROJ_DIR$\packages\aht10-v2.0.0</state>
           <state>$PROJ_DIR$\ports\fal</state>
           <state>$PROJ_DIR$\packages\ali-iotkit-v2.0.3\iotkit-embedded\src\utils\misc</state>
+          <state>$PROJ_DIR$\ports\sensor</state>
           <state>$PROJ_DIR$\..\..\libraries\WM_Libraries\Platform\Common\Params</state>
           <state>$PROJ_DIR$\packages\fal-v0.3.0\inc</state>
           <state>$PROJ_DIR$\..\..\libraries\WM_Libraries\Platform\Boot\gcc</state>
@@ -2231,6 +2237,15 @@
     </file>
   </group>
   <group>
+    <name>aht10</name>
+    <file>
+      <name>$PROJ_DIR$\packages\aht10-v2.0.0\aht10.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\packages\aht10-v2.0.0\sensor_asair_aht10.c</name>
+    </file>
+  </group>
+  <group>
     <name>ali-iotkit</name>
     <file>
       <name>$PROJ_DIR$\packages\ali-iotkit-v2.0.3\samples\mqtt\mqtt-example.c</name>
@@ -2414,6 +2429,39 @@
     </file>
   </group>
   <group>
+    <name>Drivers</name>
+    <file>
+      <name>$PROJ_DIR$\ports\sensor\sensor_port.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\board.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_uart.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_flash.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\pin_map.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_wifi.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_pin.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_soft_i2c.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_spi.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\drivers\drv_spiflash.c</name>
+    </file>
+  </group>
+  <group>
     <name>wifi</name>
     <file>
       <name>$PROJ_DIR$\ports\wifi\wifi_config.c</name>
@@ -2543,6 +2591,15 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\rt-thread\components\drivers\wlan\wlan_workqueue.c</name>
+    </file>
+  </group>
+  <group>
+    <name>Sensors</name>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\components\drivers\sensors\sensor.c</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\rt-thread\components\drivers\sensors\sensor_cmd.c</name>
     </file>
   </group>
   <group>
@@ -2903,33 +2960,6 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\libraries\WM_Libraries\Platform\Boot\iar\misc.c</name>
-    </file>
-  </group>
-  <group>
-    <name>Drivers</name>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\board.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_uart.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_flash.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\pin_map.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_wifi.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_pin.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_spi.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\drivers\drv_spiflash.c</name>
     </file>
   </group>
 </project>

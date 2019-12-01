@@ -337,7 +337,7 @@
               <MiscControls>--c99 --gnu</MiscControls>
               <Define>MQTT_DIRECT, IOTX_WITHOUT_ITLS, MQTT_COMM_ENABLED, RT_USING_ARM_LIBC, WM_W600, IOTX_WITHOUT_TLS, IOTX_NET_INIT_WITH_PK_EXT, _PLATFORM_IS_RTTHREAD_</Define>
               <Undefine></Undefine>
-              <IncludePath>.;..\..\rt-thread\include;.;applications;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\packages\iot-coap-c;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\log\LITE-log;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\mqtt\Link-MQTT;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\mqtt\Link-MQTT\MQTTPacket;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\packages\LITE-utils;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\system\iotkit-system;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\utils\misc;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\utils\digest;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\sdk-impl;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\sdk-impl\exports;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\sdk-impl\imports;packages\EasyFlash-v3.3.0\inc;ports\easyflash;packages\fal-v0.3.0\inc;ports\fal;packages\netutils-v1.1.0\ntp;ports\wifi;..\..\rt-thread\libcpu\arm\common;..\..\rt-thread\libcpu\arm\cortex-m3;..\..\rt-thread\components\dfs\include;..\..\rt-thread\components\dfs\filesystems\devfs;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\spi;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\spi\sfud\inc;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\wlan;..\..\rt-thread\components\finsh;..\..\rt-thread\components\libc\compilers\armlibc;..\..\rt-thread\components\libc\compilers\common;..\..\rt-thread\components\net\lwip-2.0.2\src;..\..\rt-thread\components\net\lwip-2.0.2\src\include;..\..\rt-thread\components\net\lwip-2.0.2\src\include\ipv4;..\..\rt-thread\components\net\lwip-2.0.2\src\arch\include;..\..\rt-thread\components\net\lwip-2.0.2\src\include\netif;..\..\rt-thread\components\net\lwip_dhcpd;..\..\rt-thread\components\net\netdev\include;..\..\rt-thread\components\net\sal_socket\include;..\..\rt-thread\components\net\sal_socket\include\socket;..\..\rt-thread\components\net\sal_socket\impl;..\..\rt-thread\components\net\sal_socket\include\dfs_net;..\..\rt-thread\components\net\sal_socket\include\dfs_net\sys_select;..\..\rt-thread\components\net\sal_socket\include\socket\sys_socket;..\..\libraries\smartconfig\inc;..\..\libraries\WM_Libraries;..\..\libraries\WM_Libraries\Include;..\..\libraries\WM_Libraries\Include\Driver;..\..\libraries\WM_Libraries\Platform\Drivers\spi;..\..\libraries\WM_Libraries\Include\OS;..\..\libraries\WM_Libraries\Include\Platform;..\..\libraries\WM_Libraries\Include\OS;..\..\libraries\WM_Libraries\Include\WiFi;..\..\libraries\WM_Libraries\Platform\Inc;..\..\libraries\WM_Libraries\Platform\Common\Params;..\..\libraries\WM_Libraries\Platform\Common\crypto;..\..\libraries\WM_Libraries\Platform\Common\crypto\digest;..\..\libraries\WM_Libraries\Platform\Common\crypto\math;..\..\libraries\WM_Libraries\Platform\Common\crypto\symmetric;..\..\libraries\WM_Libraries\Platform\Boot\gcc;..\..\drivers</IncludePath>
+              <IncludePath>.;..\..\rt-thread\include;.;applications;packages\aht10-v2.0.0;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\packages\iot-coap-c;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\log\LITE-log;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\mqtt\Link-MQTT;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\mqtt\Link-MQTT\MQTTPacket;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\packages\LITE-utils;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\system\iotkit-system;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\utils\misc;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\utils\digest;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\sdk-impl;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\sdk-impl\exports;packages\ali-iotkit-v2.0.3\iotkit-embedded\src\sdk-impl\imports;packages\EasyFlash-v3.3.0\inc;ports\easyflash;packages\fal-v0.3.0\inc;ports\fal;packages\netutils-v1.1.0\ntp;ports\sensor;..\..\drivers;ports\wifi;..\..\rt-thread\libcpu\arm\common;..\..\rt-thread\libcpu\arm\cortex-m3;..\..\rt-thread\components\dfs\include;..\..\rt-thread\components\dfs\filesystems\devfs;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\spi;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\spi\sfud\inc;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\drivers\wlan;..\..\rt-thread\components\drivers\sensors;..\..\rt-thread\components\drivers\include;..\..\rt-thread\components\finsh;..\..\rt-thread\components\libc\compilers\armlibc;..\..\rt-thread\components\libc\compilers\common;..\..\rt-thread\components\net\lwip-2.0.2\src;..\..\rt-thread\components\net\lwip-2.0.2\src\include;..\..\rt-thread\components\net\lwip-2.0.2\src\include\ipv4;..\..\rt-thread\components\net\lwip-2.0.2\src\arch\include;..\..\rt-thread\components\net\lwip-2.0.2\src\include\netif;..\..\rt-thread\components\net\lwip_dhcpd;..\..\rt-thread\components\net\netdev\include;..\..\rt-thread\components\net\sal_socket\include;..\..\rt-thread\components\net\sal_socket\include\socket;..\..\rt-thread\components\net\sal_socket\impl;..\..\rt-thread\components\net\sal_socket\include\dfs_net;..\..\rt-thread\components\net\sal_socket\include\dfs_net\sys_select;..\..\rt-thread\components\net\sal_socket\include\socket\sys_socket;..\..\libraries\smartconfig\inc;..\..\libraries\WM_Libraries;..\..\libraries\WM_Libraries\Include;..\..\libraries\WM_Libraries\Include\Driver;..\..\libraries\WM_Libraries\Platform\Drivers\spi;..\..\libraries\WM_Libraries\Include\OS;..\..\libraries\WM_Libraries\Include\Platform;..\..\libraries\WM_Libraries\Include\OS;..\..\libraries\WM_Libraries\Include\WiFi;..\..\libraries\WM_Libraries\Platform\Inc;..\..\libraries\WM_Libraries\Platform\Common\Params;..\..\libraries\WM_Libraries\Platform\Common\crypto;..\..\libraries\WM_Libraries\Platform\Common\crypto\digest;..\..\libraries\WM_Libraries\Platform\Common\crypto\math;..\..\libraries\WM_Libraries\Platform\Common\crypto\symmetric;..\..\libraries\WM_Libraries\Platform\Boot\gcc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -465,6 +465,21 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>applications\main.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>aht10</GroupName>
+          <Files>
+            <File>
+              <FileName>aht10.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\aht10-v2.0.0\aht10.c</FilePath>
+            </File>
+            <File>
+              <FileName>sensor_asair_aht10.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>packages\aht10-v2.0.0\sensor_asair_aht10.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -912,6 +927,61 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>Drivers</GroupName>
+          <Files>
+            <File>
+              <FileName>sensor_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>ports\sensor\sensor_port.c</FilePath>
+            </File>
+            <File>
+              <FileName>board.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\board.c</FilePath>
+            </File>
+            <File>
+              <FileName>drv_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\drv_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>drv_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\drv_flash.c</FilePath>
+            </File>
+            <File>
+              <FileName>pin_map.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\pin_map.c</FilePath>
+            </File>
+            <File>
+              <FileName>drv_wifi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\drv_wifi.c</FilePath>
+            </File>
+            <File>
+              <FileName>drv_pin.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\drv_pin.c</FilePath>
+            </File>
+            <File>
+              <FileName>drv_soft_i2c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\drv_soft_i2c.c</FilePath>
+            </File>
+            <File>
+              <FileName>drv_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\drv_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>drv_spiflash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\drivers\drv_spiflash.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>wifi</GroupName>
           <Files>
             <File>
@@ -1197,6 +1267,21 @@
               <FileName>wlan_workqueue.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\rt-thread\components\drivers\wlan\wlan_workqueue.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Sensors</GroupName>
+          <Files>
+            <File>
+              <FileName>sensor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\components\drivers\sensors\sensor.c</FilePath>
+            </File>
+            <File>
+              <FileName>sensor_cmd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\rt-thread\components\drivers\sensors\sensor_cmd.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1777,51 +1862,6 @@
               <FileName>libwlan_mdk.lib</FileName>
               <FileType>4</FileType>
               <FilePath>..\..\libraries\WM_Libraries\Lib\Wlan\libwlan_mdk.lib</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>Drivers</GroupName>
-          <Files>
-            <File>
-              <FileName>board.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\board.c</FilePath>
-            </File>
-            <File>
-              <FileName>drv_uart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\drv_uart.c</FilePath>
-            </File>
-            <File>
-              <FileName>drv_flash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\drv_flash.c</FilePath>
-            </File>
-            <File>
-              <FileName>pin_map.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\pin_map.c</FilePath>
-            </File>
-            <File>
-              <FileName>drv_wifi.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\drv_wifi.c</FilePath>
-            </File>
-            <File>
-              <FileName>drv_pin.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\drv_pin.c</FilePath>
-            </File>
-            <File>
-              <FileName>drv_spi.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\drv_spi.c</FilePath>
-            </File>
-            <File>
-              <FileName>drv_spiflash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\drivers\drv_spiflash.c</FilePath>
             </File>
           </Files>
         </Group>

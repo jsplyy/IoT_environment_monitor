@@ -1,0 +1,14 @@
+nxa32639@NXW53044 E:\repo\IoT_environment_monitor\source\ali_iotkit
+> pkgs --update
+Cloning into 'E:\repo\IoT_environment_monitor\source\ali_iotkit\packages\aht10-latest'...
+remote: Enumerating objects: 60, done.
+remote: Counting objects: 100% (60/60), done.
+remote: Compressing objects: 100% (59/59), done.
+remote: Total 60 (delta 23), reused 0 (delta 0)
+Unpacking objects: 100% (60/60), done.
+error: pathspec 'mater' did not match any file(s) known to git.
+==============================>  AHT10 latest is downloaded successfully.
+
+==============================>  aht10 update done
+
+Operation completed successfully.

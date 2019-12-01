@@ -18,5 +18,10 @@
   "path": "/packages/system/fal", 
   "ver": "v0.3.0", 
   "name": "FAL"
+ }, 
+ {
+  "path": "/packages/peripherals/sensors/aht10", 
+  "ver": "latest", 
+  "name": "AHT10"
  }
 ]
